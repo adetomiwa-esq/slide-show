@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 600px;
+    height: 350px;
+}
+
+.content {
+    width: 600px;
+    margin: auto;
+    height: 400px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.images {
+    position: relative;
+}
+
+.pic {
+    position: absolute;
+    left: -2000px;
+    transition: all 800ms ease-in-out;
+}
+
+.current {
+    left: 0;
+}
+
+.slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: blue;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.right {
+    right: 0px;
+}
+
+.indicate {
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.base {
+    width: 8px;
+    height: 8px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    margin: 5px;
+    transition: all 800ms ease-in-out;
+}
+
+.blu {
+    background-color: blue;
+}
